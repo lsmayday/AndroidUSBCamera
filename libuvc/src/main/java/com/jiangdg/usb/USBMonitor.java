@@ -170,7 +170,7 @@ public final class USBMonitor {
 	public synchronized void register() throws IllegalStateException {
 		if (destroyed) throw new IllegalStateException("already destroyed");
 		if (mPermissionIntent == null) {
-			if (DEBUG) XLogWrapper.i(TAG, "register:");
+			if (DEBUG) XLogWrapper.i(TAG, "register!!!:");
 			final Context context = mWeakContext.get();
 			if (context != null) {
 				if (Build.VERSION.SDK_INT >= 31) {
