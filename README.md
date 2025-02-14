@@ -45,7 +45,7 @@ allprojects {
 }
 ```
 
-&emsp;Second, add the dependency in your **app.gradle** , latest tag is [![](https://jitpack.io/v/jiangdongguo/AndroidUSBCamera.svg)](https://jitpack.io/#jiangdongguo/AndroidUSBCamera):
+&emsp;Second, add the dependency in your **app.gradle** , latest tag is [![](https://jitpack.io/v/lsmayday/AndroidUSBCamera.svg)](https://jitpack.io/#lsmayday/AndroidUSBCamera):
 
 ```groovy
 dependencies {
